@@ -1,0 +1,34 @@
+body {
+    height:100%;
+}
+header,img  {
+    display:flex;
+    justify-content: center;
+}
+.speach {
+    background-color: chartreuse;
+    border: 3px solid rgb(100, 181, 235);
+    display: flex;
+    justify-content: center;
+    font-size: 3.5vh;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    
+}
+section {
+    background-color: rgb(102, 114, 116);
+    display: flex;
+    padding: 10vh 10vh 10vh 10vh;
+    flex-wrap: wrap;
+    gap: 3vh;
+}
+footer {
+    background-image: url(./img/footer.jpg);
+    width: 100%;
+    height: 26vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
